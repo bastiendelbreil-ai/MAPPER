@@ -30,7 +30,7 @@ It is highly recommended to use a virtual environment (e.g., via Conda or venv).
 
 ## 🖥️ Usage
 To launch the application, open your terminal in the project directory and run:
-`streamlit run sequence_analyzer.py`
+`streamlit run app.py`
 A window will automatically open in your default web browser at the local address `http://localhost:8501`
 
 **Analysis Steps:**
