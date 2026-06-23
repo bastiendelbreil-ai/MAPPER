@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Delbreil"
+  given-names: "Bastien"
+  orcid: "https://orcid.org/0009-0001-0746-9122"
+title: "M.A.P.P.E.R : Motif Analyzer and Promoter Predictor for Expressions and Regulation"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2026-06-23
+url: "https://github.com/bastiendelbreil-ai/MAPPER"
