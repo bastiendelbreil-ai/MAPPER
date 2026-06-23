@@ -22,7 +22,7 @@ L'application fonctionne entièrement en local. Aucune connexion internet n'est 
 
 **Installer les bibliothèques requises :**
 Il est recommandé de créer un environnement virtuel (ex: via conda). Installez ensuite les dépendances :
-`pip install streamlit biopython pandas matplotlib dna_features_viewer openpyxl`
+`pip install -r requirements.txt`
 
 ## 🖥️ Utilisation
 Pour lancer l'application, ouvrez votre terminal dans le dossier contenant le script et exécutez :
@@ -33,7 +33,7 @@ Une fenêtre s'ouvrira automatiquement dans votre navigateur web par défaut à 
 **Étapes de l'analyse :**
 1. Paramétrage : Ajustez la taille minimale des ORFs et les seuils d'affinité pour les promoteurs/régulateurs dans le menu latéral.
 
-2. Matrices (Optionnel) : Si vous travaillez sur une autre bactérie, téléchargez le template Excel vierge en cliquant sur le bouton dédié dans l'interface. Remplissez-le avec vos séquences, puis chargez-le. Si aucun fichier n'est fourni, les matrices par défaut seront utilisées.
+2. Matrices (Optionnel) : Si vous travaillez sur une autre bactérie, téléchargez le template Excel en cliquant sur le bouton dédié dans l'interface. Remplissez-le avec vos séquences, puis chargez-le. Si aucun fichier n'est fourni, les matrices par défaut seront utilisées.
 
 3. Scan : Glissez-déposez votre fichier génomique (.fasta, .fa, .fna). L'analyse se lance automatiquement en temps réel (mise en cache pour plus de rapidité).
 
